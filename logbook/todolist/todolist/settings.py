@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'task',
     'peminjam',
     'mahasiswa',
-    'pegawai',
+    'mitra',
     'profil',
     'accounts',
 ]
@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'todolist.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'book',
-        'USER': 'tatam',
-        'PASSWORD': 'katakanlah123',
+        'NAME': 'logbook',
+        'USER': 'postgres',
+        'PASSWORD': 'Bismillah7779',
         'HOST': 'localhost',
         'PORT': '',
     }

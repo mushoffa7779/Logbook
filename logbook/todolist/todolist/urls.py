@@ -8,7 +8,7 @@ urlpatterns = [
     path('task/', include('task.urls')),
     path('peminjam/', include('peminjam.urls')),
     path('mahasiswa/', include('mahasiswa.urls')),
-    path('pegawai/', include('pegawai.urls')),
+    path('mitra/', include('mitra.urls')),
     path('profil/', include('profil.urls')),
     path('accounts/',include("accounts.urls")),
 

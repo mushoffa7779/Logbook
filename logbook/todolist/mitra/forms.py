@@ -2,7 +2,7 @@ from django.forms import ModelForm
 
 from . import models
 
-class PegawaiForm(ModelForm):
+class MitraForm(ModelForm):
     class Meta :
-        model = models.Pegawai
+        model = models.Mitra
         exclude=[]
