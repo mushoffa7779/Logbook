@@ -30,7 +30,7 @@ def delete(req, id):
 
 def update(req, id):
     if req.POST:
-        mitra = models.Mitra.objects.filter(pk=id).update(nama=req.POST['nama'], telp=req.POST['telp'], alamat=req.POST['alamat'], isbn=req.POST['isbn'], desc=req.POST['desc'])
+        mitra = models.Mitra.objects.filter(pk=id).update(nama=req.POST['nama'], alamat=req.POST['alamat'], deskripsi=req.POST['deskripsi'], telp=req.POST['telp'], pic=req.POST['pic'])
         return redirect('/mitra/')
 
     mitra = models.Mitra.objects.filter(pk=id).first()
